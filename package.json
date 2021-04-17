@@ -1,0 +1,9 @@
+{
+  "name": "edie-homepage-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w sass -o src/css"
+  }
+}

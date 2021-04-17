@@ -1,0 +1,13 @@
+@mixin display_flex($direccion, $principal, $secundaria) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $principal;
+  align-items: $secundaria;
+}
+@mixin estilo_texto($negrita, $tamano, $interlineado, $decoracion, $color) {
+  font-weight: $negrita;
+  font-size: $tamano;
+  line-height: $interlineado;
+  text-decoration: $decoracion;
+  color: $color;
+}
