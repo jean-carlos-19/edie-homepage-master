@@ -1,2 +1,44 @@
 .contenedor {
+  * + * {
+    margin-top: 1.5rem;
+  }
+  #encabezado,
+  #bienvenido,
+  #servicios,
+  #habilidades,
+  #equipo,
+  #lider,
+  #pie_pagina {
+    padding: 0.5em 1em;
+  }
+  @import "./encabezado/encabezado";
+  @import "./bienvenido/bienvenido";
+  @import "./servicios/servicios";
+  @import "./habilidades/habilidades";
+  @import "equipo/equipo";
+  @import "./lider/lider";
+  @import "./pie_pagina/pie_pagina";
+  .nav_movil {
+    position: fixed;
+    z-index: 1;
+    top: 2em;
+    width: 100%;
+    background-color: #100e1d;
+    transform: translateY(-100vh);
+    transition: transform 1s 0.1s ease-in-out;
+    li {
+      margin-top: 0;
+      border-bottom: 1px solid #828282;
+    }
+    a {
+      display: block;
+      padding: 0.5em 1em;
+
+      color: white;
+      font-weight: 600;
+    }
+  }
+  .aparece {
+    transform: translateY(-0);
+  }
 }

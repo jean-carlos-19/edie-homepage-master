@@ -1,0 +1,30 @@
+#pie_pagina {
+  background-color: var(--color_pie_pagina);
+  a {
+    @include estilo_texto(normal, 18px, 200%, none, #ffffff);
+    img {
+      border-radius: 0;
+    }
+  }
+  .redes_sociales {
+    ul {
+      @include display_flex(row, flex-start, center);
+      & > li + li {
+        margin-top: 0;
+        margin-left: 1rem;
+      }
+    }
+    h1 {
+      @include estilo_texto(800, 36px, 53px, none, #f2f2f2);
+    }
+  }
+  .derecho_autor {
+    margin-top: 5rem;
+    p,
+    a {
+      @include estilo_texto(500, 14px, 17px, none, #f2f2f2);
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+}

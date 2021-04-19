@@ -1,10 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 :root {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  border: none;
+  outline: none;
+  --color_pie_pagina: #100e1d;
 }
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+  font-family: inherit;
+  color: inherit;
+  list-style: inherit;
+  text-decoration: inherit;
+  border: inherit;
+  outline: inherit;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6,
+figcaption {
+  text-transform: capitalize;
+}
+h5 {
+  @include estilo_texto(500, 12px, 18px, none, #2d9cdb);
+}
+h1 {
+  @include estilo_texto(500, 24px, 36px, none, #333333);
+}
+h6 {
+  @include estilo_texto(300, 12px, 18px, none, #828282);
+}
+h4 {
+  @include estilo_texto(500, 18px, 27px, none, #333333);
+}
+p {
+  @include estilo_texto(normal, 16px, 24px, none, #4f4f4f);
+}
+a {
+  text-transform: capitalize;
+}
+.formulario {
+  width: 100%;
+  label {
+    @include estilo_texto(500, 10px, 15, none, #828282);
+    text-transform: capitalize;
+  }
+  .mensaje {
+    padding: 0.5em;
+    background: #f2f2f2;
+    border-radius: 12px;
+
+    @include display_flex(row, space-between, center);
+
+    input[type="email"] {
+      flex-basis: 80%;
+      text-transform: capitalize;
+      background-color: #f2f2f2;
+    }
+    input[type="button"] {
+      margin-top: 0;
+      padding: 0.5em 1em;
+      background: #2d9cdb;
+      border-radius: 12px;
+      @include estilo_texto(500, 18px, 27px, none, #f2f2f2);
+    }
+  }
+}
+.apagado {
+  display: none;
 }

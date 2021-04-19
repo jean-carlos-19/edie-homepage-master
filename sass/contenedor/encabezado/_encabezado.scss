@@ -1,0 +1,12 @@
+#encabezado {
+  width: 100%;
+  position: sticky;
+  z-index: 2;
+  background-color: white;
+  span {
+    margin-top: 0;
+  }
+  div {
+    @include display_flex(row, space-between, center);
+  }
+}

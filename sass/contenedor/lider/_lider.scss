@@ -1,0 +1,24 @@
+#lider {
+  p {
+    @include estilo_texto(500, 24px, 36px, none, #333333);
+  }
+  figure {
+    width: 100%;
+    @include display_flex(row, flex-start, center);
+    img {
+      width: 30%;
+    }
+    figcaption {
+      margin-top: 0;
+      margin-left: 0.5rem;
+
+      h2 {
+        @include estilo_texto(500, 24px, 36px, none, #333333);
+      }
+      p {
+        margin-top: 0;
+        @include estilo_texto(500, 18px, 27px, none, #828282);
+      }
+    }
+  }
+}

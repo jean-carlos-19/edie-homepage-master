@@ -1,0 +1,13 @@
+#equipo {
+  .descripcion {
+    h5 {
+      color: #eb5757;
+    }
+  }
+  figure {
+    padding: 0.25em;
+  }
+  .personas {
+    @include display_flex(row, stretch, center);
+  }
+}

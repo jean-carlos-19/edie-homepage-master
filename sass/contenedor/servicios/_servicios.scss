@@ -1,0 +1,54 @@
+#servicios {
+  .funcion {
+    & > div + div {
+      margin-top: 8rem;
+    }
+    .design,
+    .frontend,
+    .backend {
+      & > * + * {
+        margin-top: 2rem;
+      }
+    }
+    span {
+      color: white;
+      padding: 1em;
+    }
+    a {
+      display: block;
+      width: 40%;
+      background: #e0e0e0;
+      border-radius: 12px;
+      padding: 1em;
+      @include estilo_texto(500, 16px, 24px, none, #828282);
+      text-align: center;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .design {
+      span {
+        background: #2d9cdb;
+        border-radius: 16px;
+      }
+    }
+    .frontend {
+      span {
+        background: #27ae60;
+        border-radius: 16px;
+      }
+      a {
+        background: #2d9cdb;
+        color: white;
+      }
+    }
+    .backend {
+      span {
+        background: #eb5757;
+        border-radius: 16px;
+      }
+    }
+  }
+}
