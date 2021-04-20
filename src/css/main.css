@@ -176,7 +176,9 @@ a {
             .contenedor #encabezado .navegacion ul > li + li {
               margin-top: 0; }
             .contenedor #encabezado .navegacion ul li {
-              margin-right: 1rem; } }
+              margin-right: 1rem; }
+              .contenedor #encabezado .navegacion ul li a {
+                color: #333333; } }
   @media screen and (min-width: 50em) {
     .contenedor #bienvenido .contenido,
     .contenedor #bienvenido .formulario {
