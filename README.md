@@ -11,10 +11,10 @@
 <nav>
     <ul>
         <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-descripci%C3%B2n-general-">Descripciòn General</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-soluci%C3%B2n-">Soluciòn</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-construido-con-">Construido Con</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-caracteristicas-">Caracteristicas</a></li>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-contacto-">Contacto</a></li>    
+        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-soluci%C3%B2n-md#-soluci%C3%B2n-">Soluciòn</a></li>
+        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-construido-con-">Construido Con</a></li>
+        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-caracteristicas-">Caracteristicas</a></li>
+        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-contacto-">Contacto</a></li>    
     </ul>
 </nav>
 <section >
