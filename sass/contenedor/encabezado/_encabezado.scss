@@ -5,17 +5,22 @@
   z-index: 2;
   background-color: white;
   @include display_flex(row, space-between, center);
+
   .navegacion {
     display: none;
   }
   span {
     margin-top: 0;
+    cursor: pointer;
   }
   div {
     width: 100%;
     @include display_flex(row, space-between, center);
   }
-  @media screen and(min-width:50em) {
+  /*
+    escritorio
+  */
+  @media screen and(min-width:37.5rem) {
     position: static;
     span {
       display: none;

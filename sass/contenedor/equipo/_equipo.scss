@@ -10,7 +10,10 @@
   .personas {
     @include display_flex(row, stretch, center);
   }
-  @media screen and(min-width:50em) {
+  /*
+    escritorio
+  */
+  @media screen and(min-width:37.5rem) {
     @include display_flex(row, space-between, center);
     .personas {
       flex-basis: 50%;

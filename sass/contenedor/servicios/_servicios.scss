@@ -17,7 +17,7 @@
     }
     a {
       display: block;
-      width: 40%;
+      width: 100%;
       background: #e0e0e0;
       border-radius: 12px;
       padding: 1em;
@@ -55,7 +55,11 @@
       }
     }
   }
-  @media screen and(min-width:50em) {
+  /*
+    escritorio
+  */
+
+  @media screen and(min-width:50rem) {
     .funcion {
       @include display_flex(row, space-between, center);
       & > div + div {

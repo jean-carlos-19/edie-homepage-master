@@ -14,7 +14,10 @@
     margin-top: 2rem;
     @include display_flex(row, center, center);
   }
-  @media screen and(min-width:50em) {
+  /*
+    escritorio
+  */
+  @media screen and(min-width:37.5rem) {
     .conocimiento {
       @include display_grid(45%, 1em);
       & > figure + figure {

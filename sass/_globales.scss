@@ -42,19 +42,24 @@ figcaption,
 a {
   text-transform: capitalize;
 }
-h5 {
-  @include estilo_texto(500, 12px, 18px, none, #2d9cdb);
-}
 h1 {
   font-family: "Heebo", sans-serif;
-  @include estilo_texto(500, 24px, 36px, none, #333333);
+  @include estilo_texto(800, 24px, 36px, none, #333333);
 }
-h6 {
-  @include estilo_texto(300, 12px, 18px, none, #828282);
+h2 {
+  @include estilo_texto(500, 24px, 36px, none, #333333);
 }
 h4 {
   @include estilo_texto(500, 18px, 27px, none, #333333);
 }
+h5 {
+  @include estilo_texto(500, 12px, 18px, none, #2d9cdb);
+}
+
+h6 {
+  @include estilo_texto(300, 12px, 18px, none, #828282);
+}
+
 p {
   @include estilo_texto(normal, 16px, 24px, none, #4f4f4f);
 }

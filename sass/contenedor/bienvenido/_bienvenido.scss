@@ -1,9 +1,12 @@
 #bienvenido {
-  @media screen and(min-width:50em) {
+  /*
+    escritorio
+  */
+  @media screen and(min-width:37.5rem) {
     .contenido,
     .formulario {
-      width: calc(((100% - calc(277px - 5em)) / 2));
-      margin-left: calc(277px - 5em);
+      width: calc(100% - 15% - 5em);
+      margin-left: 15%;
     }
   }
 }
