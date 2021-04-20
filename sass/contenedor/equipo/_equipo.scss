@@ -10,4 +10,13 @@
   .personas {
     @include display_flex(row, stretch, center);
   }
+  @media screen and(min-width:50em) {
+    @include display_flex(row, space-between, center);
+    .personas {
+      flex-basis: 50%;
+    }
+    .descripcion {
+      flex-basis: 30%;
+    }
+  }
 }

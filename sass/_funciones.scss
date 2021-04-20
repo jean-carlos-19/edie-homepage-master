@@ -4,6 +4,12 @@
   justify-content: $principal;
   align-items: $secundaria;
 }
+@mixin display_grid($minimo, $relleno) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($minimo, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: $relleno;
+}
 @mixin estilo_texto($negrita, $tamano, $interlineado, $decoracion, $color) {
   font-weight: $negrita;
   font-size: $tamano;

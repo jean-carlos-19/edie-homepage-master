@@ -12,6 +12,22 @@
   a {
     color: #2d9cdb;
     margin-top: 2rem;
-    @include display_flex(row, flex-start, center);
+    @include display_flex(row, center, center);
+  }
+  @media screen and(min-width:50em) {
+    .conocimiento {
+      @include display_grid(45%, 1em);
+      & > figure + figure {
+        margin-top: 0;
+      }
+      figure {
+        &:nth-child(odd) {
+          margin-top: 10rem;
+        }
+      }
+      .ver_mas {
+        grid-column: 1 / 3;
+      }
+    }
   }
 }

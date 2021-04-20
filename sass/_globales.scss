@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 :root {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -7,6 +8,7 @@
   color: black;
   border: none;
   outline: none;
+
   --color_pie_pagina: #100e1d;
 }
 *,
@@ -22,6 +24,9 @@
   border: inherit;
   outline: inherit;
 }
+html {
+  scroll-behavior: smooth;
+}
 img {
   max-width: 100%;
   object-fit: cover;
@@ -33,13 +38,15 @@ h2,
 h4,
 h5,
 h6,
-figcaption {
+figcaption,
+a {
   text-transform: capitalize;
 }
 h5 {
   @include estilo_texto(500, 12px, 18px, none, #2d9cdb);
 }
 h1 {
+  font-family: "Heebo", sans-serif;
   @include estilo_texto(500, 24px, 36px, none, #333333);
 }
 h6 {
@@ -52,12 +59,16 @@ p {
   @include estilo_texto(normal, 16px, 24px, none, #4f4f4f);
 }
 a {
-  text-transform: capitalize;
+  @include estilo_texto(normal, 18px, 200%, none, #ffffff);
+  cursor: pointer;
 }
+
 .formulario {
   width: 100%;
+  @include display_flex(column, flex-end, flex-start);
   label {
-    @include estilo_texto(500, 10px, 15, none, #828282);
+    display: block;
+    @include estilo_texto(500, 10px, 15px, none, #828282);
     text-transform: capitalize;
   }
   .mensaje {
@@ -68,11 +79,12 @@ a {
     @include display_flex(row, space-between, center);
 
     input[type="email"] {
-      flex-basis: 80%;
+      width: 70%;
       text-transform: capitalize;
       background-color: #f2f2f2;
     }
     input[type="button"] {
+      width: 20%;
       margin-top: 0;
       padding: 0.5em 1em;
       background: #2d9cdb;

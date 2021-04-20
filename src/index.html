@@ -19,10 +19,10 @@
                 <h1>edie</h1>
                 <span class="material-icons" id="abrir_menu">menu</span>
             </div>
-            <nav class="navegacion apagado">
+            <nav class="navegacion">
                 <ul>
                     <li>
-                        <a href="">homre</a>
+                        <a href="">home</a>
                     </li>
                     <li> 
                         <a href="">services</a>
@@ -40,23 +40,30 @@
             </nav>
            
         </header>
+
         <section id="bienvenido">
-            <h5>unhappy with, your website?</h5>
-            <h1>we create beatiful and fasr web services</h1>
+            <div class="contenido">
+                <h5>unhappy with, your website?</h5>
+                <h1>we create beatiful and fasr web services</h1>
+            </div>
+            
             <figure class="portada">
                 <img src="./img/heroImage.jpg" alt="">
             </figure>
-            <h1>
-                story, emotion and purpose
-            </h1>
-            <p>
-                We help transform your ideas into real world applications 
-                that will outperform your toughest competition and help you 
-                achieve your strategic goals in short period of time.
-            </p>
-            <form class="formulario" action="">
+            <div class="contenido">
+                <h1>
+                    story, emotion and purpose
+                </h1>
+                <p>
+                    We help transform your ideas into real world applications 
+                    that will outperform your toughest competition and help you 
+                    achieve your strategic goals in short period of time.
+                </p>
+            </div>
+            
+            <form class="formulario" action="" id="formulario">
                 
-                    <label for="email"></label>
+                    <label for="email">Want us to contact you?</label>
                     <div class="mensaje">
                         <input type="email" name="" id="email" placeholder="email">
                         <input type="button" value="join">
@@ -71,40 +78,40 @@
             </h1>
             
 
-            <sectio class="funcion">
-                <div class="design">
-                    <span class="material-icons"> edit </span>
-                    <h1>
-                        ui/ux design
-                    </h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Eveniet odio vero id harum temporibus perferendis!
-                    </p>
-                    <a href="#">get started</a>
-                </div>
-                <div class="frontend">
-                    <span class="material-icons"> code </span>
-                    <h1>
-                        Front End
-                    </h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Eveniet odio vero id harum temporibus perferendis!
-                    </p>
-                    <a href="#">get started</a>
-                </div>
-                <div class="backend">
-                    <span class="material-icons"> storage </span>
-                    <h1>
-                        Back end
-                    </h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Eveniet odio vero id harum temporibus perferendis!
-                    </p>
-                    <a href="#">get started</a>
-                </div>
+        <section class="funcion">
+            <div class="design">
+                <span class="material-icons"> edit </span>
+                <h1>
+                    ui/ux design
+                </h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Eveniet odio vero id harum temporibus perferendis!
+                </p>
+                <a href="#">get started</a>
+            </div>
+            <div class="frontend">
+                <span class="material-icons"> code </span>
+                <h1>
+                    Front End
+                </h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Eveniet odio vero id harum temporibus perferendis!
+                </p>
+                <a href="#">get started</a>
+            </div>
+            <div class="backend">
+                <span class="material-icons"> storage </span>
+                <h1>
+                    Back end
+                </h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Eveniet odio vero id harum temporibus perferendis!
+                </p>
+                <a href="#">get started</a>
+            </div>
         </section>
         </section>
         <section id="habilidades">
@@ -136,9 +143,21 @@
                         <h4>juice product homepage</h4>
                     </figcaption>
                 </figure>
+
+                <figure>
+                    <img src="./img/booking.png" alt="">
+                    <figcaption>
+                        <h6> front end application</h6>
+                        <h4>juice product homepage</h4>
+                    </figcaption>
+                </figure>
+                <div class="ver_mas">
+                    <a href="">see more <span class="material-icons">arrow_right_alt</span></a>
+            
+                </div>
             </div>
-           <a href="">see more <span class="material-icons">arrow_right_alt</span></a>
-        
+            
+           
         </section>
         <section id="equipo">
             <div class="descripcion">
@@ -188,19 +207,19 @@
                 <nav class="navgacion_pie_pagina">
                     <ul>
                         <li>
-                            <a href="">homre</a>
+                            <a href="#bienvenido" id="item_bienvenido">home</a>
                         </li>
                         <li> 
-                            <a href="">services</a>
+                            <a href="#servicios"  id="item_servicios">services</a>
                         </li>
                         <li>
-                            <a href="">our works</a>
+                            <a href="#habilidades"  id="item_trabajos">our works</a>
                         </li>
                         <li>
-                            <a href="">clients</a>
+                            <a href="#equipo"  id="item_cliente">clients</a>
                         </li>
                         <li>
-                            <a href="">contact</a>
+                            <a href="#formulario"  id="item_contacto">contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -227,7 +246,7 @@
                     </div>
                 </div>
                 <form class="formulario" action="">                
-                    <label for="email"></label>
+                    <label for="email">Want us to contact you?</label>
                     <div class="mensaje">
                         <input type="email" name="" id="email" placeholder="email">
                         <input type="button" value="join">
@@ -261,7 +280,7 @@
         </nav>
 
     </main>
-    <script src="./App.js"></script>4
+    <script src="./js//App.js"></script>
 
 </body>
 </html>

@@ -1,12 +1,41 @@
 #encabezado {
   width: 100%;
   position: sticky;
+  top: 0em;
   z-index: 2;
   background-color: white;
+  @include display_flex(row, space-between, center);
+  .navegacion {
+    display: none;
+  }
   span {
     margin-top: 0;
   }
   div {
+    width: 100%;
     @include display_flex(row, space-between, center);
+  }
+  @media screen and(min-width:50em) {
+    position: static;
+    span {
+      display: none;
+    }
+    div:nth-child(1) {
+      flex-basis: 20%;
+    }
+    .navegacion {
+      flex-basis: 80%;
+      margin-top: 0;
+      display: block;
+      ul {
+        @include display_flex(row, flex-end, center);
+        & > li + li {
+          margin-top: 0;
+        }
+        li {
+          margin-right: 1rem;
+        }
+      }
+    }
   }
 }

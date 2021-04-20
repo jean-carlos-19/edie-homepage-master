@@ -1,2 +1,9 @@
 #bienvenido {
+  @media screen and(min-width:50em) {
+    .contenido,
+    .formulario {
+      width: calc(((100% - calc(277px - 5em)) / 2));
+      margin-left: calc(277px - 5em);
+    }
+  }
 }

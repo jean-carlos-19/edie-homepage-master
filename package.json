@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass -w sass -o src/css"
+    "sass": "node-sass -w sass -o src/css",
+    "webpack": "webpack -w"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
   }
 }

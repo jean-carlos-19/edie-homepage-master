@@ -1,4 +1,5 @@
 .contenedor {
+  animation: aparecePagina 1s ease-in;
   * + * {
     margin-top: 1.5rem;
   }
@@ -9,7 +10,7 @@
   #equipo,
   #lider,
   #pie_pagina {
-    padding: 0.5em 1em;
+    padding: 0.5em 2em;
   }
   @import "./encabezado/encabezado";
   @import "./bienvenido/bienvenido";
@@ -18,14 +19,25 @@
   @import "equipo/equipo";
   @import "./lider/lider";
   @import "./pie_pagina/pie_pagina";
+  @media screen and(min-width:50em) {
+    #encabezado,
+    #bienvenido,
+    #servicios,
+    #habilidades,
+    #equipo,
+    #lider,
+    #pie_pagina {
+      padding: 0.5em 5em;
+    }
+  }
   .nav_movil {
     position: fixed;
     z-index: 1;
-    top: 2em;
+    top: 1.7em;
     width: 100%;
     background-color: #100e1d;
     transform: translateY(-100vh);
-    transition: transform 1s 0.1s ease-in-out;
+    transition: transform 1s linear;
     li {
       margin-top: 0;
       border-bottom: 1px solid #828282;
@@ -40,5 +52,23 @@
   }
   .aparece {
     transform: translateY(-0);
+  }
+  @keyframes aparecePagina {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

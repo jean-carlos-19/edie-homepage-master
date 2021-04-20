@@ -1,0 +1,36 @@
+Arguments: 
+  /home/jean/.nvm/versions/node/v15.6.0/bin/node /home/jean/.nvm/versions/node/v15.6.0/bin/yarn add global webpack
+
+PATH: 
+  /home/jean/.nvm/versions/node/v15.6.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "edie-homepage-master",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "sass": "node-sass -w sass -o src/css",
+      "webpack": "webpack -w"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

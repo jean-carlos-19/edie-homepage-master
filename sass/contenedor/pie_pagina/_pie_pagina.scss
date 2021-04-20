@@ -1,7 +1,10 @@
 #pie_pagina {
   background-color: var(--color_pie_pagina);
-  a {
-    @include estilo_texto(normal, 18px, 200%, none, #ffffff);
+  a,
+  p {
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
     img {
       border-radius: 0;
     }
@@ -20,11 +23,15 @@
   }
   .derecho_autor {
     margin-top: 5rem;
-    p,
-    a {
-      @include estilo_texto(500, 14px, 17px, none, #f2f2f2);
-      text-transform: capitalize;
-      text-align: center;
+  }
+  @media screen and(min-width:50em) {
+    .contacto {
+      @include display_flex(row, space-around, center);
+    }
+    .navgacion_pie_pagina,
+    .redes_sociales,
+    .formulario {
+      flex-basis: 30%;
     }
   }
 }
