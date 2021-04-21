@@ -441,12 +441,3 @@ label {
       font-weight: 600; }
   .contenedor .aparece {
     transform: translateY(0); }
-  @media screen and (min-width: 50em) {
-    .contenedor #encabezado,
-    .contenedor #bienvenido,
-    .contenedor #servicios,
-    .contenedor #habilidades,
-    .contenedor #equipo,
-    .contenedor #lider,
-    .contenedor #pie_pagina {
-      padding: 0.5em 5em; } }

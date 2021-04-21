@@ -1,0 +1,17 @@
+@mixin escritorio_servicios {
+  @media screen and(min-width:60rem) {
+    .funcion {
+      @include display_flex(row, space-between, center);
+      & > div + div {
+        margin-top: 0;
+      }
+      div {
+        flex-basis: calc(100% - 1.5rem);
+        margin-left: 1.5rem;
+      }
+      a {
+        width: 60%;
+      }
+    }
+  }
+}

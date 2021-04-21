@@ -1,0 +1,13 @@
+@mixin escritorio_contenedor {
+  @media screen and(min-width:50em) {
+    #encabezado,
+    #bienvenido,
+    #servicios,
+    #habilidades,
+    #equipo,
+    #lider,
+    #pie_pagina {
+      padding: 0.5em 5em;
+    }
+  }
+}
