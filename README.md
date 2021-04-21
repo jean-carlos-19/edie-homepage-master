@@ -33,9 +33,9 @@
     <nav>
         <ul align="center">
             <h3>
-                <a href="">Demo</a><span> | </span>
+                <a href="https://piguavejc-edie-homepage-master.onrender.com/">Demo</a><span> | </span>
                 <a href="https://github.com/jean-carlos-19/checkout-page-master">Github </a><span> | </span>
-                <a href="">Devchallenge</a> </a><span> | </span>
+                <a href="https://devchallenges.io/solutions/o47v88SRgbWN0Q64kclf">Devchallenge</a> </a><span> | </span>
                 <a href="https://www.figma.com/proto/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1">Figma<a>
             </h3>
         </ul>
@@ -65,7 +65,17 @@
     <h2> Caracteristicas </h2>
     <p>
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
+        Reto: Crea una página estática con HTML y CSS siguiendo los diseños. No mire la solución existente. Cumplir con las historias de usuario a continuación:
     </p>
+      <nav>
+        <ul>
+            <li>Historia de usuario: puedo ver una página siguiendo el diseño dado</li>
+            <li>Historia de usuario: puedo ver una página en el móvil siguiendo el diseño dado</li>
+            <li>Historia de usuario: puedo ir a determinadas ubicaciones seleccionando enlaces en la navegación o en el pie de página </li> 
+            <li>Sorpréndeme con la navegación móvil.</li> 
+            <li></li>
+        </ul>
+    </nav>
 </section>
 <section >
      <section>
