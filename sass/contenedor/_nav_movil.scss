@@ -1,0 +1,23 @@
+.nav_movil {
+  position: fixed;
+  z-index: 1;
+  top: 1.7em;
+  width: 100%;
+  background-color: #100e1d;
+  transform: translateY(-100vh);
+  transition: transform 1s linear;
+  li {
+    margin-top: 0;
+    border-bottom: 1px solid #828282;
+  }
+  a {
+    display: block;
+    padding: 0.5em 1em;
+
+    color: white;
+    font-weight: 600;
+  }
+}
+.aparece {
+  transform: translateY(0);
+}

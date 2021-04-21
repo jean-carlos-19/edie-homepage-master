@@ -1,7 +1,4 @@
 #lider {
-  p {
-    @include estilo_texto(500, 24px, 36px, none, #333333);
-  }
   figure {
     width: 100%;
     @include display_flex(row, flex-start, center);
@@ -22,14 +19,5 @@
       }
     }
   }
-  /*
-    escritorio
-  */
-  @media screen and(min-width:37.5rem) {
-    figure {
-      img {
-        width: 10%;
-      }
-    }
-  }
+  @include escritorio_lider();
 }

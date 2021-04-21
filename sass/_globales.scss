@@ -32,9 +32,9 @@ img {
   object-fit: cover;
   border-radius: 18px;
 }
-
 h1,
 h2,
+h3,
 h4,
 h5,
 h6,
@@ -44,60 +44,54 @@ a {
 }
 h1 {
   font-family: "Heebo", sans-serif;
-  @include estilo_texto(800, 24px, 36px, none, #333333);
+  @include fente_dispositivo_h1(true);
 }
 h2 {
-  @include estilo_texto(500, 24px, 36px, none, #333333);
+  @include fente_dispositivo_h2(true);
+}
+h3 {
+  font-family: "Heebo", sans-serif;
+  @include fente_dispositivo_h3(true);
 }
 h4 {
-  @include estilo_texto(500, 18px, 27px, none, #333333);
+  @include fente_dispositivo_h4(true);
 }
 h5 {
-  @include estilo_texto(500, 12px, 18px, none, #2d9cdb);
+  @include fente_dispositivo_h5(true);
 }
 
 h6 {
-  @include estilo_texto(300, 12px, 18px, none, #828282);
+  @include fente_dispositivo_h6(true);
 }
 
 p {
-  @include estilo_texto(normal, 16px, 24px, none, #4f4f4f);
+  @include fente_dispositivo_p(true);
 }
 a {
-  @include estilo_texto(normal, 18px, 200%, none, #ffffff);
-  cursor: pointer;
+  @include fente_dispositivo_a(true);
 }
-
-.formulario {
-  width: 100%;
-  @include display_flex(column, flex-end, flex-start);
-  label {
-    display: block;
-    @include estilo_texto(500, 10px, 15px, none, #828282);
-    text-transform: capitalize;
-  }
-  .mensaje {
-    padding: 0.5em;
-    background: #f2f2f2;
-    border-radius: 12px;
-
-    @include display_flex(row, space-between, center);
-
-    input[type="email"] {
-      width: 70%;
-      text-transform: capitalize;
-      background-color: #f2f2f2;
-    }
-    input[type="button"] {
-      width: 20%;
-      margin-top: 0;
-      padding: 0.5em 1em;
-      background: #2d9cdb;
-      border-radius: 12px;
-      @include estilo_texto(500, 18px, 27px, none, #f2f2f2);
-    }
-  }
+label {
+  @include fente_dispositivo_label(true);
 }
-.apagado {
-  display: none;
+.reseña {
+  @include fente_dispositivo_reseña(true);
+}
+@include escritorio_globales();
+@keyframes aparecePagina {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
 }

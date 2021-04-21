@@ -10,16 +10,5 @@
   .personas {
     @include display_flex(row, stretch, center);
   }
-  /*
-    escritorio
-  */
-  @media screen and(min-width:37.5rem) {
-    @include display_flex(row, space-between, center);
-    .personas {
-      flex-basis: 50%;
-    }
-    .descripcion {
-      flex-basis: 30%;
-    }
-  }
+  @include escritorio_equipo();
 }

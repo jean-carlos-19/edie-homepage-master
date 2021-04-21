@@ -19,56 +19,7 @@
   @import "equipo/equipo";
   @import "./lider/lider";
   @import "./pie_pagina/pie_pagina";
-  @media screen and(min-width:50em) {
-    #encabezado,
-    #bienvenido,
-    #servicios,
-    #habilidades,
-    #equipo,
-    #lider,
-    #pie_pagina {
-      padding: 0.5em 5em;
-    }
-  }
-  .nav_movil {
-    position: fixed;
-    z-index: 1;
-    top: 1.7em;
-    width: 100%;
-    background-color: #100e1d;
-    transform: translateY(-100vh);
-    transition: transform 1s linear;
-    li {
-      margin-top: 0;
-      border-bottom: 1px solid #828282;
-    }
-    a {
-      display: block;
-      padding: 0.5em 1em;
-
-      color: white;
-      font-weight: 600;
-    }
-  }
-  .aparece {
-    transform: translateY(-0);
-  }
-  @keyframes aparecePagina {
-    0% {
-      opacity: 0;
-    }
-    25% {
-      opacity: 0.25;
-    }
-    50% {
-      opacity: 0.5;
-    }
-
-    75% {
-      opacity: 0.75;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+  @import "./formulario";
+  @import "./_nav_movil";
+  @include escritorio_contenedor();
 }

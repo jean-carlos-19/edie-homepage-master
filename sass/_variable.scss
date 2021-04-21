@@ -1,0 +1,70 @@
+@mixin tamano_h1_movil {
+  @include estilo_texto(800, 24px, 36px, none, #333333);
+}
+@mixin tamano_h2_movil {
+  @include estilo_texto(500, 24px, 36px, none, #333333);
+}
+@mixin tamano_h3_movil {
+  @include estilo_texto(800, 36px, 53px, none, #f2f2f2);
+}
+
+@mixin tamano_h4_movil {
+  @include estilo_texto(500, 18px, 53px, none, #333333);
+}
+
+@mixin tamano_h5_movil {
+  @include estilo_texto(500, 12px, 18px, none, #2d9cdb);
+}
+
+@mixin tamano_h6_movil {
+  @include estilo_texto(300, 12px, 18px, none, #828282);
+}
+@mixin tamano_reseña_movil {
+  @include estilo_texto(5000, 24px, 36px, none, #333333);
+}
+
+@mixin tamano_p_movil {
+  @include estilo_texto(normal, 16px, 24px, none, #4f4f4f);
+}
+
+@mixin tamano_a_movil {
+  @include estilo_texto(normal, 18px, 200%, none, #ffffff);
+}
+@mixin tamano_label_movil {
+  @include estilo_texto(500, 10px, 15px, none, #828282);
+}
+
+// ESCRITORIO
+
+@mixin tamano_a_escritorio {
+  font-size: 24px;
+  line-height: 36px;
+}
+@mixin tamano_h1_escritorio {
+  font-size: 48px;
+  line-height: 72px;
+}
+@mixin tamano_h2_escritorio {
+  font-size: 36px;
+  line-height: 54px;
+}
+@mixin tamano_h4_escritorio {
+  font-size: 24px;
+  line-height: 36px;
+}
+@mixin tamano_h5_escritorio {
+  font-size: 18px;
+  line-height: 27px;
+}
+@mixin tamano_h6_escritorio {
+  font-size: 14px;
+  line-height: 21px;
+}
+@mixin tamano_p_escritorio {
+  font-size: 16px;
+  line-height: 24px;
+}
+@mixin tamano_reseña_escritorio {
+  font-size: 36px;
+  line-height: 54px;
+}
