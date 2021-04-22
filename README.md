@@ -67,7 +67,7 @@
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
         Reto: Crea una página estática con HTML y CSS siguiendo los diseños. No mire la solución existente. Cumplir con las historias de usuario a continuación:
     </p>
-      <nav>
+      <nav>.
         <ul>
             <li>Historia de usuario: puedo ver una página siguiendo el diseño dado</li>
             <li>Historia de usuario: puedo ver una página en el móvil siguiendo el diseño dado</li>
