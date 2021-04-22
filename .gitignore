@@ -1,2 +1,5 @@
 edie-homepage-master
 node_modules
+.gitignore
+package-lock.json
+yarn-error.log
