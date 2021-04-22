@@ -73,7 +73,6 @@
             <li>Historia de usuario: puedo ver una página en el móvil siguiendo el diseño dado</li>
             <li>Historia de usuario: puedo ir a determinadas ubicaciones seleccionando enlaces en la navegación o en el pie de página </li> 
             <li>Sorpréndeme con la navegación móvil.</li> 
-            <li></li>
         </ul>
     </nav>
 </section>
