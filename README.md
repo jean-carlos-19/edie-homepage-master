@@ -64,9 +64,13 @@
 <section >
     <h2> Caracteristicas </h2>
     <p>
-        Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
+        Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. 
+       
+   </p>
+    <p>
+        El reto consistía en construir una aplicación para completar las historias de usuario dadas.
         Reto: Crea una página estática con HTML y CSS siguiendo los diseños. No mire la solución existente. Cumplir con las historias de usuario a continuación:
-    </p>
+     </p>
       <nav>.
         <ul>
             <li>Historia de usuario: puedo ver una página siguiendo el diseño dado</li>
