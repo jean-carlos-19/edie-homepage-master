@@ -1,285 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Jean Carlos Piguave Alvarado piguavejc@gmail.com">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="shortcut icon" href="./img/devchallenges.png" type="image/png">
-    <title>Edie Homepage Master</title>
-</head>
-<body>
-    
-    <main class="contenedor">
-       
-        <header id="encabezado">    
-            <div>
-                <h1>edie</h1>
-                <span class="material-icons" id="abrir_menu">menu</span>
-            </div>
-            <nav class="navegacion">
-                <ul>
-                    <li>
-                        <a href="">home</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Jean Carlos Piguave Alvarado piguavejc@gmail.com" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="shortcut icon" href="./img/contenido/devchallenges.png" type="image/png" />
+        <title>Edie Homepage Master</title>
+    </head>
+    <body>
+        <header class="cabecera">
+            <h2 class="titulo titulo_2_cabecera titulo_2">edie</h2>
+            <span class="material-icons icono icono_cabecera" id="cabecera_icono_menu">menu</span>
+            <nav class="navegacion navegacion_cabecera">
+                <ul class="lista lista_nav_escritorio">
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="#bienvenido">home</a>
                     </li>
-                    <li> 
-                        <a href="">services</a>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="#conocimiento">services</a>
                     </li>
-                    <li>
-                        <a href="">our works</a>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="#especialidades">Our work</a>
                     </li>
-                    <li>
-                        <a href="">clients</a>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="#equipo">clients</a>
                     </li>
-                    <li>
-                        <a href="">contact</a>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="#contacto">contact</a>
                     </li>
                 </ul>
             </nav>
-           
         </header>
-        <section id="bienvenido">
-            <div class="contenido">
-                <h5>unhappy with, your website?</h5>
-                <h1>we create beatiful and fasr web services</h1>
+        <main class="home">
+            <div class="bienvenido" id="bienvenido">
+                <section class="portada portada_bienvenido">
+                    <h5 class="subtitulo subtitulo_portada pequeno">Unhappy with your website?</h5>
+                    <h2 class="titulo titulo_2_portada titulo_2">We create beautiful and fast web services</h2>
+                    <figure class="figura figura_portada">
+                        <img
+                            src="./img/contenido/heroImage.jpg"
+                            alt="equipo de trabajo compuesto por 4 personas blancas y un pizarron de lluvia de ideas"
+                            class="imagen imagen_figura"
+                        />
+                    </figure>
+                </section>
+                <section class="publicidad publicidad_bienvenido">
+                    <h2 class="titulo titulo_2_publicidad titulo_2">Story, emotion and purpose</h2>
+                    <p class="parrafo parrafo_publicidad pequeno">
+                        We help transform your ideas into real world applications that will outperform your toughest competition
+                        and help you achieve your strategic goals in short period of time.
+                    </p>
+                    <form class="formulario formulario_bienvenido">
+                        <label class="etiqueta etiqueta_formulario muy_pequeno" for="email">Want us to contact you?</label>
+                        <div class="campo campo_formulario">
+                            <input class="cuadro_texto cuadro_texto_fila normal" type="email" id="email" placeholder="Email" />
+                            <input class="boton boton_campo normal" type="button" value="join" />
+                        </div>
+                    </form>
+                </section>
             </div>
-            
-            <figure class="portada">
-                <img src="./img/heroImage.jpg" alt="">
-            </figure>
-            <div class="contenido">
-                <h2>
-                    story, emotion and purpose
-                </h2>
-                <p>
-                    We help transform your ideas into real world applications 
-                    that will outperform your toughest competition and help you 
-                    achieve your strategic goals in short period of time.
-                </p>
-            </div>
-            
-            <form class="formulario" action="" id="formulario">
-                
-                    <label for="email">Want us to contact you?</label>
-                    <div class="mensaje">
-                        <input type="email" name="" id="email" placeholder="email">
-                        <input type="button" value="join">
-                    </div>
-               
-            </form>
-        </section>
-        <section id="servicios">
-            <h2>
-                we offer hegh
-                demand services
-            </h2>
-            
 
-        <section class="funcion">
-            <div class="design">
-                <span class="material-icons"> edit </span>
-                <h2>
-                    ui/ux design
-                </h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Eveniet odio vero id harum temporibus perferendis!
-                </p>
-                <a href="#">get started</a>
-            </div>
-            <div class="frontend">
-                <span class="material-icons"> code </span>
-                <h2>
-                    Front End
-                </h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Eveniet odio vero id harum temporibus perferendis!
-                </p>
-                <a href="#">get started</a>
-            </div>
-            <div class="backend">
-                <span class="material-icons"> storage </span>
-                <h2>
-                    Back end
-                </h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Eveniet odio vero id harum temporibus perferendis!
-                </p>
-                <a href="#">get started</a>
-            </div>
-        </section>
-        </section>
-        <section id="habilidades">
-            <h2>
-                good design  good business
-            </h2>
-            <div class="conocimiento">
-                <figure>
-                    <img src="./img/smarthome.jpg" alt="">
-                    <figcaption>
-                        <h6> full stack application</h6>
-                        <h4>smart home dashboard</h4>
-                    </figcaption>
-                </figure>
-
-                <figure>
-                    <img src="./img/onboard.png" alt="">
-                    <figcaption>
-                        <h6> ux/ui design</h6>
-                        <h4>onboard application</h4>
-                    </figcaption>
-                </figure>
-
-
-                <figure>
-                    <img src="./img/juice-product.png" alt="">
-                    <figcaption>
-                        <h6> front end application</h6>
-                        <h4>juice product homepage</h4>
-                    </figcaption>
-                </figure>
-
-                <figure>
-                    <img src="./img/booking.png" alt="">
-                    <figcaption>
-                        <h6> front end application</h6>
-                        <h4>juice product homepage</h4>
-                    </figcaption>
-                </figure>
-                <div class="ver_mas">
-                    <a href="">see more <span class="material-icons">arrow_right_alt</span></a>
-            
+            <article class="conocimientos" id="conocimiento">
+                <header class="cabecera cabecera_conocimientos">
+                    <h2 class="titulo titulo_2_cabecera titulo_2">We offer high demand services</h2>
+                </header>
+                <div class="habilidades habilidades_conocimientos">
+                    <section class="area area_conocimiento">
+                        <span class="material-icons icono icono_editar icono_area"> edit </span>
+                        <h2 class="titulo titulo_2_area titulo_2">UI/UX Design</h2>
+                        <p class="parrafo parrafo_area titulo_4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id
+                            quis turpis.
+                        </p>
+                        <a class="enlace enlace_area titulo_4" href=""> Get started</a>
+                    </section>
+                    <section class="area area_conocimiento">
+                        <span class="material-icons icono icono_codigo icono_area"> code </span>
+                        <h2 class="titulo titulo_2_area titulo_2">Front End</h2>
+                        <p class="parrafo parrafo_area titulo_4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id
+                            quis turpis.
+                        </p>
+                        <a class="enlace enlace_area titulo_4" href="">Get started</a>
+                    </section>
+                    <section class="area area_conocimiento">
+                        <span class="material-icons icono icono_menu icono_area"> storage </span>
+                        <h2 class="titulo titulo_2_area titulo_2">Back End</h2>
+                        <p class="parrafo parrafo_area titulo_4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id
+                            quis turpis.
+                        </p>
+                        <a class="enlace enlace_area titulo_4" href="">Get started</a>
+                    </section>
                 </div>
-            </div>
-            
-           
-        </section>
-        <section id="equipo">
-            <div class="descripcion">
-                <h5>meet the team</h5>
-                <h2>we are chilled and a laidback team</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur 
-                    adipisicing elit. Facilis est repellat veniam 
-                    possimus veritatis nisi.
-                </p>
-            </div>
-            
-            <div class="personas">
-                <div class="punto_1">
-                    <figure>
-                        <img src="./img/person3.png" alt="">
-                        
+            </article>
+
+            <section class="especialidades" id="especialidades">
+                <header class="cabecera cabecera_especialidades">
+                    <h2 class="titulo titulo_2_cabecera titulo_2">Good design means good business</h2>
+                </header>
+                <div class="imagenes">
+                    <figure class="figura figura_especialidades">
+                        <img class="imagen imagen_figura" src="./img/contenido/smarthome.jpg" alt="" />
+                        <figcaption class="detalle detall_figura">
+                            <h6 class="subtitulo subtitulo_detalle pequeno">Full stack application</h6>
+                            <h3 class="titulo titulo_3_detalle titulo_3">Smart home dashboard</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="figura figura_especialidades">
+                        <img class="imagen imagen_figura" src="./img/contenido/onboard.png" alt="" />
+                        <figcaption class="detalle detall_figura">
+                            <h6 class="subtitulo subtitulo_detalle pequeno">UX/UI design</h6>
+                            <h3 class="titulo titulo_3_detalle titulo_3">Onboard application</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="figura figura_especialidades">
+                        <img class="imagen imagen_figura" src="./img/contenido/juice-product.png" alt="" />
+                        <figcaption class="detalle detall_figura">
+                            <h6 class="subtitulo subtitulo_detalle pequeno">Mobile application</h6>
+                            <h3 class="titulo titulo_3_detalle titulo_3">Booking system</h3>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="figura figura_especialidades">
+                        <img class="imagen imagen_figura" src="./img/contenido/booking.png" alt="" />
+                        <figcaption class="detalle detall_figura">
+                            <h6 class="subtitulo subtitulo_detalle pequeno">Front End applicati on</h6>
+                            <h3 class="titulo titulo_3_detalle titulo_3">Juice product homepage</h3>
+                        </figcaption>
                     </figure>
                 </div>
-                <div class="punto_2">
+                <a class="enlace enlace_especialidades" href="">
+                    see more <span class="material-icons icono icono_enlace">arrow_right_alt</span>
+                </a>
+            </section>
+
+            <article class="equipo" id="equipo">
+                <header class="cabecera cabecera_equipo">
+                    <h3 class="titulo titulo_3_cabecera titulo_3">Meet the team</h3>
+                    <h1 class="titulo titulo_1_cabecera titulo_1">We are chilled and a laidback team</h1>
+                    <p class="parrafo parrafo_equipo titulo_4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </header>
+                <figure class="figura figura_equipo">
+                    <img class="imagen imagen_figura" src="./img/contenido//person2.png" alt="" />
                     <figure>
-                        <img src="./img/person1.png" alt="">
-              
+                        <img class="imagen imagen_figura" src="./img/contenido//person1.png" alt="" />
+                        <img class="imagen imagen_figura" src="./img/contenido//person3.png" alt="" />
                     </figure>
-                    <figure>
-                        <img src="./img/person2.png" alt="">
-                    </figure>
-                </div>
-               
-            </div>
-        </section>
-        <section id="lider">
-            <p class="reseña">
-                fast and outstanding resutls. edie undertands their customer's 
-                needs. the have a young and talented
-            </p>
-            <figure >
-                <img src="./img/person4.png" alt="">
-                <figcaption>
-                    <h2>carlos tran </h2>
-                    <p>the decorate garsby</p>
-                </figcaption>
-            </figure>
-        </section>
-        <footer id="pie_pagina">
-            <div class="contacto">
-                <nav class="navgacion_pie_pagina">
-                    <ul>
-                        <li>
-                            <a href="#bienvenido" id="item_bienvenido">home</a>
-                        </li>
-                        <li> 
-                            <a href="#servicios"  id="item_servicios">services</a>
-                        </li>
-                        <li>
-                            <a href="#habilidades"  id="item_trabajos">our works</a>
-                        </li>
-                        <li>
-                            <a href="#equipo"  id="item_cliente">clients</a>
-                        </li>
-                        <li>
-                            <a href="#formulario"  id="item_contacto">contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="redes_sociales">
-                    <h3>edie</h3>
-                    <div class="tipo">
-                        <ul>
-                            <li>
-                            <a href="http://" target="_blank" rel="noopener noreferrer">
-                                <img src="./img/instagram.svg" alt="">
-                            </a>
-                            </li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">
-                                    <img src="./img/linkedin.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://" target="_blank" rel="noopener noreferrer">
-                                    <img src="./img/twitter.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <form class="formulario" action="">                
-                    <label for="email">Want us to contact you?</label>
-                    <div class="mensaje">
-                        <input type="email" name="" id="email" placeholder="email">
-                        <input type="button" value="join">
-                    </div>
-                </form>
-            </div>
-            <div class="derecho_autor">
-                <p>
-                    create by <a href="https://devchallenges.io/portfolio/jean-carlos-19" target="_blank">piguavejc</a> -  <a href="https://devchallenges.io/" target="_blank">devChallenges.io</a>
-                </p>
-            </div>
-        </footer>
-        <nav class="nav_movil" id="nav_movil">
-            <ul>
-                <li>
-                    <a href="">home</a>
+                </figure>
+            </article>
+
+            <section class="lider">
+                <h2 class="titulo tutlo_2_lider titulo_2">
+                    “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”
+                </h2>
+                <figure class="figura figura_lider">
+                    <img class="imagen imagen_figura" src="./img/contenido/person4.png" alt="" />
+                    <figcaption class="detalle detalle_figura">
+                        <h2 class="titulo titulo_2_detalle titulo_2">Carlos Tran</h2>
+                        <h3 class="titulo titulo_3_detalle titulo_3">The Decorate Gatsby</h3>
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+        <nav class="navegacion" id="navegacion_movil">
+            <ul class="lista lista_nav_movil">
+                <li class="item item_lista titulo_3">
+                    <a class="enlace enlace_item" href="">home</a>
                 </li>
-                <li> 
-                    <a href="">services</a>
+                <li class="item item_lista titulo_3">
+                    <a class="enlace enlace_item" href="">services</a>
                 </li>
-                <li>
-                    <a href="">our works</a>
+                <li class="item item_lista titulo_3">
+                    <a class="enlace enlace_item" href="">Our work</a>
                 </li>
-                <li>
-                    <a href="">clients</a>
+                <li class="item item_lista titulo_3">
+                    <a class="enlace enlace_item" href="">clients</a>
                 </li>
-                <li>
-                    <a href="">contact</a>
+                <li class="item item_lista titulo_3">
+                    <a class="enlace enlace_item" href="">contact</a>
                 </li>
             </ul>
         </nav>
-
-    </main>
-    <script src="./js/App.js"></script>
-
-</body>
+        <footer class="pie_pagina" id="contacto">
+            <div class="contenido pie_pagina_contenido">
+                <ul class="lista lista_contenido">
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="">home</a>
+                    </li>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="">services</a>
+                    </li>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="">Our work</a>
+                    </li>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="">clients</a>
+                    </li>
+                    <li class="item item_lista">
+                        <a class="titulo enlace enlace_item titulo_3" href="">contact</a>
+                    </li>
+                </ul>
+                <section class="redes_sociales redes_sociales_contenido">
+                    <h1 class="titulo titulo_1_redes_sociales titulo_1">Edie</h1>
+                    <ul class="lista lista_redes_sociales">
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <img src="./img/contenido/instagram.svg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <img src="./img/contenido/linkedin.svg" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <img src="./img/contenido/twitter.svg" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <form class="formulario formulario_contenido">
+                    <label class="etiqueta etiqueta_formulario muy_pequeno" for="email">Want us to contact you?</label>
+                    <div class="campo campo_formulario">
+                        <input class="cuadro_texto cuadro_texto_fila normal" type="email" id="email" placeholder="Email" />
+                        <input class="boton boton_campo normal" type="button" value="join" />
+                    </div>
+                </form>
+            </div>
+            <p class="parrafo parrafo_pie_pagina normal">
+                created by
+                <a class="enlace enlace_parrafo" href="https://devchallenges.io/portfolio/jean-carlos-19" target="_blank">
+                    piguavejc</a
+                >
+                -
+                <a class="enlace enlace_parrafo" href="https://devchallenges.io/" target="_blank">devChallenges.io</a>
+            </p>
+        </footer>
+        <script src="./js/App.js"></script>
+    </body>
 </html>

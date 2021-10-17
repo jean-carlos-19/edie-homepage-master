@@ -1,0 +1,15 @@
+.publicidad {
+  .titulo_2_publicidad {
+    margin-top: 1.37rem; /*22/16*/
+    width: 60.53%; /* (227/375)*100 */
+    font-weight: 500;
+  }
+  .parrafo_publicidad {
+    margin-top: 2.06rem; /*33/16*/
+  }
+}
+@media screen and(min-width:50rem) {
+  .publicidad {
+    width: 25.41rem; /* (366/1440) * 100 */
+  }
+}

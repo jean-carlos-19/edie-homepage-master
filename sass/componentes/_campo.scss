@@ -1,0 +1,13 @@
+.campo {
+  width: 100%;
+  padding: 0.25rem; /*4/16*/
+  background-color: var(--color_secundario_gris_600);
+  border-radius: var(--border_radius_estandar);
+  @include display_flex(row, flex-start, center);
+  .cuadro_texto_fila {
+    flex: 1 2 80%;
+  }
+  .boton_campo {
+    flex: 2 1 auto;
+  }
+}

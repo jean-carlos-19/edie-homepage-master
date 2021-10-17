@@ -1,0 +1,32 @@
+.cabecera {
+  padding: var(--relleno_home);
+  position: sticky;
+  top: -1px;
+  background-color: var(--color_secundario_blanco);
+  @include display_flex(row, space-between, center);
+  .titulo_1 {
+    font-weight: 500;
+  }
+  .titulo_2 {
+    width: 69.06%; /*(259/375) * 100*/
+    font-weight: 800;
+  }
+  .titulo_3 {
+    color: var(--color_secundario_rojo);
+    font-weight: 500;
+  }
+  .navegacion_cabecera {
+    height: auto;
+    display: none;
+  }
+}
+@media screen and(min-width:60rem) {
+  .cabecera {
+    .navegacion_cabecera {
+      display: block;
+    }
+    .icono_cabecera {
+      display: none;
+    }
+  }
+}

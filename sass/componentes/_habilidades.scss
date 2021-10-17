@@ -1,0 +1,14 @@
+.habilidades {
+  & > * + * {
+    margin-top: 7.93rem; /*127/16*/
+  }
+}
+@media screen and(min-width:50rem) {
+  .habilidades_conocimientos {
+    @include display_flex(row, flex-start, flex-start);
+    & > * + * {
+      margin-top: 0;
+      margin-left: 0.5rem; /* 8/16 */
+    }
+  }
+}

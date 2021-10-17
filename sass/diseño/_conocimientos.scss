@@ -1,0 +1,14 @@
+.conocimientos {
+  margin-top: 6.37rem; /*102/16*/
+  & > * + * {
+    margin-top: 7.93rem; /*127/16*/
+  }
+  .cabecera_conocimientos {
+    position: static;
+    padding: 0;
+    .titulo_2_cabecera {
+      max-width: 24.02rem; /* (346/1440)*100 */
+      font-weight: 500;
+    }
+  }
+}

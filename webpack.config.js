@@ -1,9 +1,9 @@
-const path = require("path");
+const path = require('path');
 
 module.exports = {
-  entry: path.join(__dirname, "js/App.js"),
+  entry: path.join(__dirname, 'js/App.js'),
   output: {
-    path: path.resolve(__dirname, "src/js"),
-    filename: "App.js",
+    path: path.resolve(__dirname, 'src/js'),
+    filename: 'App.js',
   },
 };

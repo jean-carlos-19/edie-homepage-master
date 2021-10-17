@@ -1,0 +1,24 @@
+.normal {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--tamano_normal);
+  line-height: var(--interlineado_normal);
+  color: var(--color_secundario_gris_400);
+}
+.pequeno {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--tamano_pequeno);
+  line-height: var(--interlineado_pequeno);
+  color: var(--color_secundario_gris_100);
+}
+.muy_pequeno {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--tamano_muy_pequeno);
+  line-height: var(--interlineado_muy_pequeno);
+  color: var(--color_secundario_gris_100);
+}

@@ -1,0 +1,8 @@
+.bienvenido {
+  & > * + * {
+    margin-top: 0.5rem; /*8/16*/
+  }
+  .formulario_bienvenido {
+    margin-top: 1.93rem; /*31/16*/
+  }
+}

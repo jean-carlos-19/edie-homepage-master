@@ -1,0 +1,13 @@
+.lista_nav_escritorio {
+  display: none;
+}
+
+@media screen and(min-width:50rem) {
+  .lista_nav_escritorio {
+    margin-left: auto;
+    @include display_flex(row, flex-end, flex-start);
+    & > * + * {
+      margin-left: 1.5rem; /*24/16*/
+    }
+  }
+}

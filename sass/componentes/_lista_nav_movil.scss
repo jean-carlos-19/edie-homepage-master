@@ -1,0 +1,6 @@
+.lista_nav_movil {
+  @include display_flex(column, center, center);
+  & > * + * {
+    margin-top: 1.5rem;
+  }
+}

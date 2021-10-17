@@ -1,0 +1,24 @@
+.portada {
+  .subtitulo_portada {
+    // padding: var(--relleno_estandar);
+    margin-top: 3rem; /*48/16*/
+    color: var(--color_primario_azul);
+  }
+  .titulo_2_portada {
+    // padding: var(--relleno_estandar);
+    margin-top: 1.37rem; /*22/16*/
+    width: 75.53%; /* (272/375)*100 */
+    font-weight: 500;
+  }
+  .figura_portada {
+    padding: 0 17px;
+    margin-top: 0.93rem; /*15/16*/
+  }
+}
+@media screen and(min-width:50rem) {
+  .portada {
+    .titulo_2_portada {
+      width: 37.7rem; /* (543/1440)*100 */
+    }
+  }
+}

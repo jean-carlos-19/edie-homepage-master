@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  z-index: 1;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.icono {
+  color: var(--color_secundario_gris_300);
+}
+.icono_editar {
+  background-color: var(--color_primario_azul);
+}
+.icono_codigo {
+  background-color: var(--color_secundario_verder);
+}
+.icono_menu {
+  background-color: var(--color_secundario_rojo);
+}
+.enlace {
+  padding: 12px 35px;
+  border: 1px solid var(--color_secundario_azul);
+  border-radius: 0.75rem;
+  background-color: var(--color_secundario_gris_500);
+  text-transform: capitalize;
+  text-align: center;
+}
+.activo {
+  background-color: var(--color_secundario_azul);
+}
+.etiqueta,
+.cuadro_texto {
+  color: var(--color_secundario_gris_300);
+  min-width: 0;
+}
+.boton {
+  padding: 0.68rem 1.31rem; /* 11/16  21/16 */
+  background-color: var(--color_primario_azul);
+  color: var(--color_secundario_blanco);
+  border: none;
+  border-radius: var(--border_radius_estandar);
+  min-width: 0;
+}
+.titulo {
+  font-family: "Poppins";
+  font-style: normal;
+  text-transform: capitalize;
+}

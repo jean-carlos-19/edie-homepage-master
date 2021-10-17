@@ -1,0 +1,29 @@
+.especialidades {
+  & > * + * {
+    margin-top: 2.25rem; /* 36/16 */
+  }
+  .cabecera_especialidades {
+    padding: 0;
+    position: static;
+    .titulo_2_cabecera {
+      max-width: 31.11rem; /* (448/1440)*100 */
+    }
+  }
+  .enlace_especialidades {
+    padding: 0;
+    background-color: var(--color_secundario_blanco);
+    color: var(--color_primario_azul);
+    @include display-flex(row, flex-start, center);
+    .icono_enlace {
+      margin-left: 0.5rem; /* 8/16 */
+      color: inherit;
+    }
+  }
+}
+@media screen and(min-width:50rem) {
+  .especialidades {
+    .enlace_especialidades {
+      @include display-flex(row, flex-end, center);
+    }
+  }
+}

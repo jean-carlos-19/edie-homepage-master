@@ -1,0 +1,85 @@
+@mixin display_flex($direccion, $principal, $secundarios) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $principal;
+  align-items: $secundarios;
+}
+@mixin colores {
+  --color_primario_azul: #2d9cdb;
+  --color_secundario_rojo: #eb5757;
+  --color_secundario_gris_100: #333333;
+  --color_secundario_gris_200: #4f4f4f;
+  --color_secundario_gris_300: #828282;
+  --color_secundario_gris_400: #bdbdbd;
+  --color_secundario_gris_500: #e0e0e0;
+  --color_secundario_gris_600: #f2f2f2;
+  --color_secundario_oscuro: #100e10;
+  --color_secundario_oscuro_100: #100e1d;
+  --color_secundario_verder: #27ae60;
+  --color_secundario_blanco: #fff;
+}
+@mixin titulo_1 {
+  --tamano_titulo_1: #{$tamano_titulo_1_movil};
+  --interlineado_titulo_1: #{$interlineado_titulo_1_movil};
+}
+@mixin titulo_2 {
+  --tamano_titulo_2: #{$tamano_titulo_2_movil};
+  --interlineado_titulo_2: #{$interlineado_titulo_2_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_2: #{$tamano_titulo_2_escritorio};
+    --interlineado_titulo_2: #{$interlineado_titulo_2_escritorio};
+  }
+}
+@mixin titulo_3 {
+  --tamano_titulo_3: #{$tamano_titulo_3_movil};
+  --interlineado_titulo_3: #{$interlineado_titulo_3_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_3: #{$tamano_titulo_3_escritorio};
+    --interlineado_titulo_3: #{$interlineado_titulo_3_escritorio};
+  }
+}
+@mixin titulo_4 {
+  --tamano_titulo_4: #{$tamano_titulo_4_movil};
+  --interlineado_titulo_4: #{$interlineado_titulo_4_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_4: #{$tamano_titulo_4_escritorio};
+    --interlineado_titulo_4: #{$interlineado_titulo_4_escritorio};
+  }
+}
+@mixin normal {
+  --tamano_normal: #{$tamano_normal_movil};
+  --interlineado_normal: #{$interlineado_normal_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_normal: #{$tamano_normal_escritorio};
+    --interlineado_normal: #{$interlineado_normal_escritorio};
+  }
+}
+@mixin pequeno {
+  --tamano_pequeno: #{$tamano_pequeno_movil};
+  --interlineado_pequeno: #{$interlineado_pequeno_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_pequeno: #{$tamano_pequeno_escritorio};
+    --interlineado_pequeno: #{$interlineado_pequeno_escritorio};
+  }
+}
+@mixin muy_pequeno {
+  --tamano_muy_pequeno: #{$tamano_muy_pequeno_movil};
+  --interlineado_muy_pequeno: #{$interlineado_muy_pequeno_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_muy_pequeno: #{$tamano_muy_pequeno_escritorio};
+    --interlineado_muy_pequeno: #{$interlineado_muy_pequeno_escritorio};
+  }
+}
+@mixin rellenos {
+  --relleno_home: 0.81rem 0.62rem; /* 13/16 10/16 */
+  --relleno_estandar: 0 2.5rem; /* 40/16 */
+  @media screen and(min-width:60rem) {
+    --relleno_home: 3.18rem 3.5rem; /*51/16 56/16*/
+  }
+}
+@mixin border {
+  --border_radius_estandar: 0.75rem; /*12/16*/
+}
+@mixin anchos {
+  --ancho_maximo: 90rem; /*1440/16*/
+}

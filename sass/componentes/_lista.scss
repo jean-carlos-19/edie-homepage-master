@@ -1,0 +1,25 @@
+.lista {
+  & > * + * {
+    margin-top: 1rem; /* 16/16 */
+  }
+  .item_lista {
+    .enlace_item {
+      padding: 0;
+      font-weight: 500;
+      background-color: transparent;
+      color: var(--color_secundario_blanco);
+    }
+  }
+}
+@media screen and(min-width:60rem) {
+  .lista {
+    & > * + * {
+      margin-top: 0;
+    }
+    .item_lista {
+      .enlace_item {
+        color: var(--color_secundario_gris_100);
+      }
+    }
+  }
+}

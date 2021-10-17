@@ -1,9 +1,0 @@
-@mixin escritorio_bienvenido {
-  @media screen and(min-width:37.5rem) {
-    .contenido,
-    .formulario {
-      width: calc(100% - 15% - 5em);
-      margin-left: 15%;
-    }
-  }
-}

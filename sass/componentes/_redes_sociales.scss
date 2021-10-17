@@ -1,0 +1,18 @@
+.redes_sociales {
+  .titulo_1_redes_sociales {
+    color: var(--color_secundario_blanco);
+  }
+  .lista_redes_sociales {
+    & > * + * {
+      margin-left: 0.68rem; /* 11/16 */
+      margin-top: 0;
+    }
+    @include display_flex(row, flex-start, flex-start);
+  }
+}
+@media screen and(min-width:50rem) {
+  .redes_sociales {
+    @include display_flex(column, center, center);
+    flex-basis: 40%;
+  }
+}

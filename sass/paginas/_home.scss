@@ -1,0 +1,9 @@
+.home {
+  margin: 0 auto;
+  max-width: var(--ancho_maximo);
+  animation: aparece_sitio 1s linear;
+  padding: var(--relleno_estandar);
+  & > * + * {
+    margin-top: 6.25rem; /* 100/16 */
+  }
+}

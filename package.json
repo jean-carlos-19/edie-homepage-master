@@ -5,9 +5,13 @@
   "license": "MIT",
   "scripts": {
     "sass": "node-sass -w sass -o src/css",
+    "prettier": "prettier --write ./*",
     "webpack": "webpack -w"
   },
   "devDependencies": {
     "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "webpack": "^5.50.0"
   }
 }

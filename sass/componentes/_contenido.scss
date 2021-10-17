@@ -1,0 +1,25 @@
+.contenido {
+  & > * + * {
+    margin-top: 4rem; /* 64/16 */
+  }
+  .lista_contenido {
+    .item_lista {
+      .enlace_item {
+        color: var(--color_secundario_blanco);
+      }
+    }
+  }
+}
+@media screen and(min-width:50rem) {
+  .contenido {
+    & > * + * {
+      margin-top: 0;
+    }
+    @include display_flex(row, flex-start, flex-start);
+    .lista_contenido,
+    .formulario_contenido {
+      flex-basis: 30%;
+      margin: 0;
+    }
+  }
+}

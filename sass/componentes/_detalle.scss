@@ -1,0 +1,9 @@
+.detalle {
+  & > * + * {
+    margin-top: 0.25rem; /* 4/16 */
+  }
+  .titulo_3_detalle,
+  .titulo_2_detalle {
+    font-weight: 500;
+  }
+}

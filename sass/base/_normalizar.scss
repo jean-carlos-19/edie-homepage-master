@@ -1,0 +1,27 @@
+:root {
+  /*
+movil:(x=375,6169)
+escritorio:(x=1440,5835)
+*/
+  @include colores();
+  @include titulo_1();
+  @include titulo_2();
+  @include titulo_3();
+  @include titulo_4();
+  @include normal();
+  @include pequeno();
+  @include muy_pequeno();
+  @include rellenos();
+  @include border();
+  @include anchos();
+  box-sizing: border-box;
+  font-family: "";
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}

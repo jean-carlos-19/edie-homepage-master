@@ -1,0 +1,33 @@
+.equipo {
+  .cabecera_equipo {
+    max-width: 25.92rem; /* (280/1080)*100 */
+    padding: 0;
+    position: static;
+    display: block;
+  }
+  .figura_equipo {
+    @include display_flex(row, stretch, center);
+    & > * + * {
+      margin-left: 0.5rem; /* 8/16 */
+    }
+    img,
+    figure {
+      min-width: 0;
+      flex-basis: 50%;
+    }
+  }
+}
+@media screen and(min-width:50rem) {
+  .equipo {
+    @include display_flex(row, flex-start, flex-start);
+    & > * + * {
+      margin-left: 1.5rem; /* 8/16 */
+    }
+    .cabecera_equipo {
+      flex: 1 1 40%;
+    }
+    .figura_equipo {
+      flex: 1 1 30%;
+    }
+  }
+}

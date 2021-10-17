@@ -1,0 +1,23 @@
+.navegacion {
+  position: fixed;
+  width: 100%;
+  top: calc((0.82rem + 1rem) * 2);
+  left: 0;
+  height: calc(100vh - ((0.81rem + 1rem) * 2));
+  background-color: var(--color_primario_azul);
+  transform: translateX(-100%);
+  transition: transform 1s ease-out;
+  @include display_flex(column, center, center);
+}
+.navegacion_movil_activo {
+  transform: translateX(0);
+}
+
+@media screen and(min-width:60rem) {
+  .navegacion {
+    display: none;
+    position: static;
+    transform: none;
+    background-color: transparent;
+  }
+}

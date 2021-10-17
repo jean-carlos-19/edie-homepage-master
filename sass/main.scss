@@ -1,3 +1,23 @@
-@import "./contenedor/escritorio/main";
-@import "./base/main";
-@import "./contenedor/contenedor";
+@charset "utf-8";
+
+@import "resumenes/variable", "resumenes/mixin";
+
+//@import "proveedore/";
+
+@import "base/fuentes", "base/animaciones", "base/normalizar",
+  "base/ayudantes/app", "base/base";
+
+@import "diseño/cabecera", "diseño/navegacion", "diseño/bienvenido",
+  "diseño/conocimientos", "diseño/especialidades", "diseño/equipo",
+  "diseño/lider", "diseño/pie_pagina";
+
+@import "componentes/lista", "componentes/lista_nav_movil",
+  "componentes/lista_escritorio", "componentes/portada",
+  "componentes/publicidad", "componentes/imagenes", "componentes/figura",
+  "componentes/formulario", "componentes/campo", "componentes/area",
+  "componentes/habilidades", "componentes/detalle", "componentes/redes_sociales",
+  "componentes/contenido";
+
+@import "paginas/home";
+
+//@import "temas/";
