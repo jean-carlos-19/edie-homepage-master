@@ -6,3 +6,6 @@ yarn.lock
 
 #extension de visual studio code
 .vscode
+
+#produccion
+/dist

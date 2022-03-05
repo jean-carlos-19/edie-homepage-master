@@ -13,7 +13,7 @@ _Reto: Crear una página estática con HTML y CSS propuesto por [DevChallenges](
 
 
 ### Previsualización 
-![imagen]()
+![imagen](https://github.com/jean-carlos-19/edie-homepage-master/tree/master/captura/escritorio.png)
 
 ### Demo
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-edie-homepage-master.onrender.com/)_
