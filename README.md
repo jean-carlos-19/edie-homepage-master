@@ -1,4 +1,4 @@
-# Pagina de Pago.
+# HomePage.
 
 _Reto: Crear una página estática con HTML y CSS propuesto por [DevChallenges](https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1). Cumpla con las historias de usuario que aparecen a continuación:_
 
