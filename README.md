@@ -1,94 +1,85 @@
-<main>
-<section>
-    <h1 align="center"> Edie Homepage Master  </h1>
-</section>
- <section>
-    <h3 align="center"> Solución para un desafío de <a href="https://devchallenges.io/">Devchallenges.io</a> </h3>
+# Pagina de Pago.
 
-<section align="left">
-     <h2> Tabla de Contenido </h2>
-</section>
-<nav>
-    <ul>
-        <li><a href="https://github.com/jean-carlos-19/checkout-page-master/blob/master/README.md#-descripci%C3%B2n-general-">Descripciòn General</a></li>
-        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-soluci%C3%B2n-md#-soluci%C3%B2n-">Soluciòn</a></li>
-        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-construido-con-">Construido Con</a></li>
-        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-caracteristicas-">Caracteristicas</a></li>
-        <li><a href="https://github.com/jean-carlos-19/edie-homepage-master#-contacto-">Contacto</a></li>    
-    </ul>
-</nav>
-<section >
-    <section>
-        <h2 > Descripciòn General </h2>
-    </section>
-    <section >
-         <img align="center"  width="100%" heigth="50vh" src="./src/img/escritorio.png" alt="figura del sitio web en version escritorio">
-    <section>
-   
-</section>
+_Reto: Crear una página estática con HTML y CSS propuesto por [DevChallenges](https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1). Cumpla con las historias de usuario que aparecen a continuación:_
 
-</section>
-    <section >
-    <h2> Soluciòn </h2>
-    <nav>
-        <ul align="center">
-            <h3>
-                <a href="https://piguavejc-edie-homepage-master.onrender.com/">Demo</a><span> | </span>
-                <a href="https://github.com/jean-carlos-19/checkout-page-master">Github </a><span> | </span>
-                <a href="https://devchallenges.io/solutions/o47v88SRgbWN0Q64kclf">Devchallenge</a> </a><span> | </span>
-                <a href="https://www.figma.com/proto/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1">Figma<a>
-            </h3>
-        </ul>
-    </nav>
-</section>
+### Historias de Usuario
+- _Puedo ver una página que sigue el diseño dado creada en [figma](https://www.figma.com/proto/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=1%3A9&scaling=min-zoom&page-id=0%3A1)._
 
-<section >
-    <section>
-        <h2> Construido Con </h2>
-    </section>
-    <nav>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT </li> 
-            <li>WEBPACK</li> 
-            <li>
-                Preprocesadores
-                <ul>
-                    <li>SASS</li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</section>
-<section >
-    <h2> Caracteristicas </h2>
-    <p>
-        Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. 
-       
-   </p>
-    <p>
-        El reto consistía en construir una aplicación para completar las historias de usuario dadas.
-        Reto: Crea una página estática con HTML y CSS siguiendo los diseños. No mire la solución existente. Cumplir con las historias de usuario a continuación:
-     </p>
-      <nav>.
-        <ul>
-            <li>Historia de usuario: puedo ver una página siguiendo el diseño dado</li>
-            <li>Historia de usuario: puedo ver una página en el móvil siguiendo el diseño dado</li>
-            <li>Historia de usuario: puedo ir a determinadas ubicaciones seleccionando enlaces en la navegación o en el pie de página </li> 
-            <li>Sorpréndeme con la navegación móvil.</li> 
-        </ul>
-    </nav>
-</section>
-<section >
-     <section>
-        <h2> Contacto </h2>
-    </section>
-    <nav>
-        <ul>
-                <li>Github <a href="https://github.com/jean-carlos-19">@jean-carlos-19</a></li>
-                <li>Twitter <a href="https://twitter.com/PiguaveJean">@PiguaveJean</a></li>
-        </ul>
-</nav>
-</section>
-</main>
+- _Puedo ver una página en el móvil siguiendo el diseño dado creada en [figma](https://www.figma.com/proto/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=1%3A148&scaling=min-zoom&page-id=0%3A1)._
+
+- _Puedo ir a determinados lugares seleccionando enlaces en la navegación o en el pie de página._
+
+- _Sorpréndeme con la navegación en el móvil._
+
+
+### Previsualización 
+![imagen]()
+
+### Demo
+_Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-edie-homepage-master.onrender.com/)_
+
+### Pre-requisitos 📋
+
+_Para el correcto funcionamiento del proyecto de desafios se necesita tener instalado las siguientes dependencia sea de manera local o global_
+
+```bash
+yarn add global node-sass
+yarn add global --exact prettier
+
+o
+
+yarn add node-sass
+yarn add --exact prettier
+```
+
+### Instalación 🔧
+
+_A continuación se muestran los pasos para correr el abiente de desarrollo local:_
+
+```bash
+# 1. Clona este respositorio.
+$git https://github.com/jean-carlos-19/edie-homepage-master
+
+#2. Dirigete a la carpeta. 
+$ cd edie-homepage-master
+
+#3. Instala las dependencias.
+$ yarn install o  yarn -i
+
+#3. Dar formato al codigo 
+$yarn prettier
+
+#4. Generar el codigo css mediante Scss 
+$yarn scss
+
+#5. Corre el ambiente local.
+$ yarn start
+```
+
+## Despliegue 📦
+
+_Agrega notas adicionales sobre como hacer deploy_
+
+## Construido con 🛠️
+
+_Las herramientas utilizadas en este desafio fueron las siguientes:_
+
+* [html](https://developer.mozilla.org/es/docs/Web/HTML/Reference) - Usado para crear el esqueleto de una pagina web.
+* [Sass](https://sass-lang.com/guide) - Es un preprocesador de css utilizando el patron 7 - 1.
+* [Prettier](https://prettier.io/docs/en/index.html) - Usado para dar formato al codigo dependiendo de la tecnologia usada.
+* [webpack](https://webpack.js.org/concepts/) - Usado para empaquetar todos tus modulos de tu proyecto.
+
+## Autores ✒️
+
+* **Jean Piguave** - *Trabajo Inicial* - [piguavejc](https://devchallenges.io/portfolio/jean-carlos-19)
+* **DevChallenges** - *Diseño de la IU en Figma* - [DevChallenges](https://devchallenges.io/)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT).
+
+
+
+
+---
+⌨️ con ❤️ por [Jean Carlos](https://devchallenges.io/portfolio/jean-carlos-19) 😊

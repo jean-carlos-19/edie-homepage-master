@@ -1,4 +1,8 @@
-edie-homepage-master
+#Dependencias
 /node_modules
-package-lock.json
-yarn-error.log
+
+#informacion de instalaciones fallidad de paquetes al instalar paquetes de yarn 
+yarn.lock
+
+#extension de visual studio code
+.vscode
