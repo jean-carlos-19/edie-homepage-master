@@ -2,7 +2,7 @@
 
 _Reto: Crear una página estática con HTML y CSS propuesto por [DevChallenges](https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1). Cumpla con las historias de usuario que aparecen a continuación:_
 
-### Historias de Usuario
+### Historias de Usuario :man:
 - _Puedo ver una página que sigue el diseño dado creada en [figma](https://www.figma.com/proto/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=1%3A9&scaling=min-zoom&page-id=0%3A1)._
 
 - _Puedo ver una página en el móvil siguiendo el diseño dado creada en [figma](https://www.figma.com/proto/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=1%3A148&scaling=min-zoom&page-id=0%3A1)._
@@ -12,10 +12,10 @@ _Reto: Crear una página estática con HTML y CSS propuesto por [DevChallenges](
 - _Sorpréndeme con la navegación en el móvil._
 
 
-### Previsualización 
+### Previsualización :eye:
 ![imagen](https://github.com/jean-carlos-19/edie-homepage-master/tree/master/captura/escritorio.png)
 
-### Demo
+### Demo :eyes:
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-edie-homepage-master.onrender.com/)_
 
 ### Pre-requisitos 📋
